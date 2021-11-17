@@ -13,7 +13,7 @@ var firstTime;
 var isUserOnQuestion = false;
 var scoreBreakdownText = ['Questions correct:', 'Time spent:', 'Longest correct answer streak:', 'Your total score:']
 var scoreBreakdownColors = ['darkgreen', 'orange', 'purple', 'cornflowerblue'];
-var backgroundImages = ['url(https://images.pexels.com/photos/60217/pexels-photo-60217.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500)', 'url(https://p0.pxfuel.com/preview/778/544/37/hawaii-diamond-head-honolulu-oahu.jpg)', 'url(https://p1.pxfuel.com/preview/765/978/336/hawaii-oahu-mountain-sky-paradise-scenic.jpg)', 'url(https://p1.pxfuel.com/preview/182/655/633/hawaii-oahu-ko-olina-landscape.jpg)', 'url(https://p1.pxfuel.com/preview/123/765/129/waikiki-beach-hawaii-honolulu-oahu.jpg)']
+var backgroundImages = ['url(:https://images.pexels.com/photos/60217/pexels-photo-60217.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")', 'url("https://p0.pxfuel.com/preview/778/544/37/hawaii-diamond-head-honolulu-oahu.jpg")', 'url("https://p1.pxfuel.com/preview/765/978/336/hawaii-oahu-mountain-sky-paradise-scenic.jpg")', 'url("https://p1.pxfuel.com/preview/182/655/633/hawaii-oahu-ko-olina-landscape.jpg)', 'url(https://p1.pxfuel.com/preview/123/765/129/waikiki-beach-hawaii-honolulu-oahu.jpg")']
 var currentStreak = 0;
 var correctQuestions = 0;
 var totalTimeElapsed = 0;
